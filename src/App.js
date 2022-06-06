@@ -4,7 +4,7 @@ import Navbar from "./page/sharedfile/Navbar";
 
 function App() {
   return (
-    <div >
+    <div className=" max-w-[1600px] mx-auto">
       <Navbar/>
       <Routes>
       <Route path="/" element={<MainHome/>}/>

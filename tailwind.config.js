@@ -7,6 +7,7 @@ module.exports = {
         'custom-secondary':'#644F9C',
         'custom-base':'#F2F2F2',
         'custom-gray':'#404040',
+        'custom-icon':'#1d4999',
       },
       fontFamily: {
         primary: ['PT Sans', 'sans-serif'],

@@ -29,7 +29,7 @@ const Carousol = () => {
         },
     ]
     return (
-        <div className='bg-slate-200'>
+        <div className=''>
             <Swiper
         spaceBetween={30}
         centeredSlides={true}

@@ -11,12 +11,12 @@ const Navbar = () => {
         <li className='mr-1'><Link to="/contact">contact us</Link></li>
     </>
     return (
-        <div className='flex justify-between md:block'>
-        <div className='flex justify-between container items-center mx-auto  order-2 md:order-1 mt-2'>
-            <a href="/" className='flex justify-center items-center text-lg md:text-xl'><img className='h-11 md:h-14 ' src={logo} alt="" /><span className=' font-semibold text-gray-700'>Masterkey Technologies</span></a>
-            <p className='px-2'><span className='text-green-600'>BN</span> / <span>EN</span> </p>
+        <div className='flex justify-between md:block bg-transparent'>
+        <div className='flex justify-between container items-center mx-auto  order-2 md:order-1 pt-2'>
+            <a href="/" className='flex justify-center items-center text-lg md:text-xl'><span className=' font-semibold text-gray-700 ml-5'>Masterkey Technologies</span></a>
+            <p className='pr-5'><span className='text-green-600'>BN</span> / <span>EN</span> </p>
             </div>
-        <div className="navbar bg-base-100 container mx-auto order-1 w-20 md:order-2 md:w-full">
+        <div className="navbar bg-transparent container mx-auto order-1 w-16 md:order-2 md:w-full">
             <div className="">
                 <div className="dropdown">
                     <label tabIndex="0" className="btn btn-ghost lg:hidden mt-5">
@@ -36,11 +36,14 @@ const Navbar = () => {
             </div>
 
             <div className=" hidden lg:flex justify-between  w-full ">
-                <ul className="menu menu-horizontal p-0 text-xl text-custom-secondary uppercase font-primaryCaption">
+                <ul className="menu menu-horizontal p-0 text-xl  text-custom-secondary uppercase font-primaryCaption">
                     {navItem}
                 </ul>
-                <div className='ml-5'>
-                    <Link to='/login'><button className="btn  border-0 bg-custom-primary">login</button></Link>
+                <div className='bg-gray-50 shadow p-2 rounded-3xl'>
+
+                    
+                    <Link to='/login'><button className="px-5 py-2 mr-2  font-medium text-base uppercase">login</button></Link>
+                    <Link to='/singup'><button className="px-5 py-2 text-base font-medium rounded-3xl bg-custom-primary uppercase shadow-lg text-white">sign up</button></Link>
                 </div>
 
             </div>
