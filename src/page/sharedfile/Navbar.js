@@ -6,9 +6,9 @@ const Navbar = () => {
         <li className='mr-1'><Link to="/">Home</Link></li>
         <li className='mr-1'><Link to="/advertisers">Advertisers</Link></li>
         <li className='mr-1'><Link to="/publishers">publishers</Link></li>
-        <li className='mr-1'><Link to="/influencers">influencers</Link></li>
-        <li className='mr-1'><Link to="/blog">blog</Link></li>
-        <li className='mr-1'><Link to="/contact">contact us</Link></li>
+        <li className='mr-1'><Link to="/influencers">Influencers</Link></li>
+        <li className='mr-1'><Link to="/blog">Blog</Link></li>
+        <li className='mr-1'><Link to="/contact">Contact us</Link></li>
     </>
     return (
         <div className='flex justify-between md:block bg-transparent'>
@@ -26,7 +26,8 @@ const Navbar = () => {
 
                         {navItem}
                         <div className="flex justify-around">
-                            <Link to='/login'><button className="btn  border-0 bg-custom-primary">login</button></Link>
+                            <Link to='/login'><button className="btn  border-0 btn-ghost">login</button></Link>
+                            <Link to='/singup'><button className="btn  border-0 bg-custom-primary">Sign up</button></Link>
 
                         </div>
 

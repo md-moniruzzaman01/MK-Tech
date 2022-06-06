@@ -48,7 +48,7 @@ const Carousol = () => {
   
         {
             carousolInfo.map(info=>
-                <SwiperSlide className='SwiperSlide'>
+                <SwiperSlide >
                     <CarousolCard info={info}/>
                 </SwiperSlide>)
         }

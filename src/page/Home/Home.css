@@ -1,0 +1,10 @@
+.SwiperSlide{
+    width: 60% !important;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .SwiperSlide{
+        width: 100% !important;
+    }
+  }
