@@ -1,9 +1,10 @@
 import React from 'react';
+import Carousol from './Sections/Carousol';
 
 const MainHome = () => {
     return (
-        <div className='mt-44 mx-auto'>
-            this is home
+        <div >
+           <Carousol></Carousol>
         </div>
     );
 };
